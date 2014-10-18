@@ -253,6 +253,8 @@
     <Content Include="Scripts\jquery.leanModal.min.js" />
     <Content Include="Scripts\jquery.signalR-2.1.0.js" />
     <Content Include="Scripts\jquery.signalR-2.1.0.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\json2.min.js" />
     <Content Include="Scripts\rickshaw.js" />
     <Content Include="Scripts\rickshaw.min.js" />
     <Content Include="Global.asax" />
@@ -262,20 +264,12 @@
     <Content Include="Widgets\clock\clock.html" />
     <Content Include="Widgets\comments\comments.html" />
     <Content Include="Widgets\graph\graph.html" />
-    <Content Include="Widgets\highcolumn\highcolumn.html" />
-    <Content Include="Widgets\highline\highline.html" />
-    <Content Include="Widgets\highpie\highpie.html" />
+    <Content Include="Widgets\highchart\highchart.html" />
     <Content Include="Widgets\iframe\iframe.html" />
     <Content Include="Widgets\image\image.html" />
     <Content Include="Widgets\list\list.html" />
     <Content Include="Widgets\meter\meter.html" />
     <Content Include="Widgets\number\number.html" />
-    <Content Include="Widgets\number\number.js">
-      <DependentUpon>number.coffee</DependentUpon>
-    </Content>
-    <Content Include="Widgets\number\number.min.js">
-      <DependentUpon>number.js</DependentUpon>
-    </Content>
     <Content Include="Widgets\rickshawgraph\rickshawgraph.html" />
     <Content Include="Widgets\switcher\switcher.coffee" />
     <Content Include="Widgets\switcher\switcher.md" />
@@ -325,18 +319,13 @@
     <Content Include="Widgets\text\text.coffee" />
     <Content Include="Widgets\text\text.scss" />
     <Content Include="Views\Error\Index.cshtml" />
-    <Content Include="Widgets\highcolumn\highcolumn.coffee" />
-    <Content Include="Widgets\highcolumn\highcolumn.scss" />
-    <Content Include="Widgets\highline\highline.coffee" />
-    <Content Include="Widgets\highline\highline.scss" />
-    <Content Include="Widgets\highpie\highpie.coffee" />
-    <Content Include="Widgets\highpie\highpie.scss" />
     <Content Include="Widgets\vumeter\vumeter.coffee" />
     <Content Include="Widgets\vumeter\vumeter.scss" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.coffee" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.scss" />
     <Content Include="Widgets\rickshawgraph\rickshawgraph.md" />
+<<<<<<< HEAD
     <Content Include="Widgets\number\number.js.map">
       <DependentUpon>number.js</DependentUpon>
     </Content>
@@ -355,6 +344,10 @@
     <Content Include="Widgets\tcbuildstatus\tcbuildstatus.min.js.map">
       <DependentUpon>tcbuildstatus.min.js</DependentUpon>
     </Content>
+=======
+    <Content Include="Widgets\highchart\highchart.coffee" />
+    <Content Include="Widgets\highchart\highchart.scss" />
+>>>>>>> origin/master
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

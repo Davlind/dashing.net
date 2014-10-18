@@ -5,11 +5,19 @@ using Owin;
 
 namespace dashing.net
 {
-    public class Startup
-    {
-        public void Configuration(IAppBuilder app)
-        {
-            app.MapSignalR();
-        }
-    }
+	using Microsoft.AspNet.SignalR;
+
+	public class Startup
+	{
+		public void Configuration(IAppBuilder app)
+		{
+			var hubConfiguration =
+				new HubConfiguration
+				{
+					EnableDetailedErrors = true
+				};
+
+			app.MapSignalR(hubConfiguration);
+		}
+	}
 }
