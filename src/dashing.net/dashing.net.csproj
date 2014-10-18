@@ -15,7 +15,7 @@
     <AssemblyName>dashing.net</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -48,6 +48,9 @@
     <Reference Include="CoffeeSharp">
       <HintPath>..\packages\CoffeeSharp.0.5\lib\CoffeeSharp.dll</HintPath>
     </Reference>
+    <Reference Include="EasyHttp">
+      <HintPath>..\packages\EasyHttp.1.6.14\lib\net40\EasyHttp.dll</HintPath>
+    </Reference>
     <Reference Include="IronRuby">
       <HintPath>..\packages\IronRuby.1.1.3\lib\IronRuby.dll</HintPath>
     </Reference>
@@ -56,6 +59,10 @@
     </Reference>
     <Reference Include="IronRuby.Libraries.Yaml">
       <HintPath>..\packages\IronRuby.1.1.3\lib\IronRuby.Libraries.Yaml.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx, Version=2.0.1209.2802, Culture=neutral, PublicKeyToken=315052dd637f8a52, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\JsonFx.2.0.1209.2802\lib\net40\JsonFx.dll</HintPath>
     </Reference>
     <Reference Include="Jurassic">
       <HintPath>..\packages\CoffeeSharp.0.5\lib\Jurassic.dll</HintPath>
@@ -166,6 +173,10 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="TeamCitySharp, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\TeamCitySharp.0.3.5\lib\net40\TeamCitySharp.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
     </Reference>
@@ -268,6 +279,19 @@
     <Content Include="Widgets\rickshawgraph\rickshawgraph.html" />
     <Content Include="Widgets\switcher\switcher.coffee" />
     <Content Include="Widgets\switcher\switcher.md" />
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.css">
+      <DependentUpon>tcbuildstatus.scss</DependentUpon>
+    </Content>
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.html" />
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.js">
+      <DependentUpon>tcbuildstatus.coffee</DependentUpon>
+    </Content>
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.min.css">
+      <DependentUpon>tcbuildstatus.css</DependentUpon>
+    </Content>
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.min.js">
+      <DependentUpon>tcbuildstatus.js</DependentUpon>
+    </Content>
     <Content Include="Widgets\text\text.html" />
     <Content Include="Widgets\vumeter\vumeter.html" />
     <Content Include="Scripts\es5-shim.js" />
@@ -318,6 +342,18 @@
     </Content>
     <Content Include="Widgets\number\number.min.js.map">
       <DependentUpon>number.min.js</DependentUpon>
+    </Content>
+    <Content Include="Views\Dashboard\TeamCity.cshtml" />
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.coffee" />
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.scss" />
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.css.map">
+      <DependentUpon>tcbuildstatus.css</DependentUpon>
+    </Content>
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.js.map">
+      <DependentUpon>tcbuildstatus.js</DependentUpon>
+    </Content>
+    <Content Include="Widgets\tcbuildstatus\tcbuildstatus.min.js.map">
+      <DependentUpon>tcbuildstatus.min.js</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -377,16 +413,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49328</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49169</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

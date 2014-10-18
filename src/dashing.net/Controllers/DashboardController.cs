@@ -18,5 +18,10 @@ namespace dashing.net.Controllers
         {
             return View();
         }
+
+        public ActionResult TeamCity()
+        {
+            return View();
+        }
     }
 }

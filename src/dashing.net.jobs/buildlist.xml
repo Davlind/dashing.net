@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<builds count="5" href="/guestAuth/app/rest/builds?locator=running:any,count:5,buildType(name:QA%20Main)" nextHref="/guestAuth/app/rest/builds?locator=buildType:(name:QA+Main),count:5,start:5,running:any">
+
+  <build id="626987" buildTypeId="bt89" number="7749" status="FAILURE" state="running" running="true" percentageComplete="89" href="/guestAuth/app/rest/builds/id:626987" />
+
+  <build id="626952" buildTypeId="bt89" number="7748" status="FAILURE" state="finished" href="/guestAuth/app/rest/builds/id:626952" />
+
+  <build id="626756" buildTypeId="bt89" number="7747" status="FAILURE" state="finished" href="/guestAuth/app/rest/builds/id:626756" />
+
+  <build id="626739" buildTypeId="bt89" number="7746" status="FAILURE" state="finished" href="/guestAuth/app/rest/builds/id:626739" />
+
+  <build id="626734" buildTypeId="bt89" number="7745" status="FAILURE" state="finished" href="/guestAuth/app/rest/builds/id:626734" />
+
+</builds>

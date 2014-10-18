@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Mono.framework/Versions/3.8.0/lib/mono/4.5/Microsoft.Common.targets">
+    <Files>
+      <File FileName="dashing.net/Widgets/text/text.html" Line="1" Column="1" />
+      <File FileName="dashing.net/Widgets/text/text.coffee" Line="1" Column="1" />
+      <File FileName="dashing.net/Widgets/text/text.scss" Line="1" Column="1" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/3.8.0/lib/mono/4.5/Microsoft.Common.targets" Line="44" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,49 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$bg-color-passed:  #1b8b00;
+$bg-color-failed:  #870000;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+$meter-bg-passed:  darken($bg-color-passed, 15%);
+$meter-bg-failed:  darken($bg-color-failed, 15%);
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-tcbuildstatus {
+
+  background-color: $bg-color-failed;
+
+  input.meter {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+  &.large h3 {
+    font-size: 65px;
+  }
+}
+
+.status-FAILURE {
+    background-color: $bg-color-failed
+}
+
+.status-SUCCESS {
+    background-color: $bg-color-passed
+}

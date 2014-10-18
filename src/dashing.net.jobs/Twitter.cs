@@ -23,7 +23,7 @@ namespace dashing.net.jobs
 
         public Twitter()
         {
-            Timer = new Lazy<Timer>(() => new Timer(SendMessage, null, TimeSpan.Zero, TimeSpan.FromMinutes(2)));
+            Timer = new Lazy<Timer>(() => new Timer(SendMessage, null, TimeSpan.Zero, TimeSpan.FromMinutes(20)));
         }
 
         private void SendMessage(object message)

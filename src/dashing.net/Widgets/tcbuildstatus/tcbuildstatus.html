@@ -1,0 +1,28 @@
+<h1 class="title" data-bind="title"></h1>
+
+<h3 data-bind="status"></h3>
+
+<div class="progress">
+    <input class="meter" 
+           data-angleoffset=-125 
+           data-anglearc=250 
+           data-width=200 
+           data-readonly=true 
+           data-bind-value="percentage | shortenedNumber" 
+           data-bind-data-min="0" 
+           data-bind-data-max="100" style="display: none">
+    <input value="807:13" data-fgcolor="rgb(255, 255, 255)" readonly="readonly" style="width: 104px; height: 66px; position: absolute; vertical-align: middle; margin-top: 66px; margin-left: -152px; border: 0px none; background: none repeat scroll 0% 0% transparent; font: bold 40px Arial; text-align: center; color: rgb(255, 255, 255); padding: 0px;">
+</div>
+
+<p data-bind="progressText"></p>
+
+<div style="display: inline-block;">
+    <div class="hist0" style="height: 50px; width: 50px; border: 3px solid #ffffff; margin: 5px; float:left;"></div>
+    <div class="hist1" style="height: 50px; width: 50px; border: 3px solid #ffffff; margin: 5px; float:left;"></div>
+    <div class="hist2" style="height: 50px; width: 50px; border: 3px solid #ffffff; margin: 5px; float:left;"></div>
+    <div class="hist3" style="height: 50px; width: 50px; border: 3px solid #ffffff; margin: 5px; float:left;"></div>
+</div>
+
+<p class="more-info" data-bind="state | raw"></p>
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>

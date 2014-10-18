@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<build id="626987" buildTypeId="bt89" number="7749" status="FAILURE" state="finished" href="/guestAuth/app/rest/builds/id:626987" >
+
+  <statusText>Tests failed: 1, passed: 896, ignored: 57</statusText>
+
+  <buildType id="bt89" name="QA Main" projectName="QABuilds" projectId="QABuilds" href="/guestAuth/app/rest/buildTypes/id:bt89" />
+
+  <tags/>
+
+  <queuedDate>20141002T090005+0300</queuedDate>
+
+  <startDate>20141002T092403+0300</startDate>
+
+  <finishDate>20141002T105105+0300</finishDate>
+
+  <triggered type="unknown" details="Schedule Trigger" date="20141002T090005+0300"/>
+
+  <lastChanges count="1">
+
+    <change id="126331" version="504805" username="europe\dl4" date="20140819T154215+0300" href="/guestAuth/app/rest/changes/id:126331" />
+
+  </lastChanges>
+
+  <changes href="/guestAuth/app/rest/changes?locator=build:(id:626987)"/>
+
+  <revisions>
+
+    <revision version="504805">
+
+      <vcs-root-instance id="110" vcs-root-id="QABuilds_Qa1" name="QA (1)" href="/guestAuth/app/rest/vcs-root-instances/id:110"/>
+
+    </revision>
+
+  </revisions>
+
+  <agent id="17" name="swr11152-7" typeId="17" href="/guestAuth/app/rest/agents/id:17"/>
+
+  <testOccurrences count="954" href="/guestAuth/app/rest/testOccurrences?locator=build:(id:626987)" passed="896" failed="1" ignored="57"/>
+
+  <problemOccurrences count="1" href="/guestAuth/app/rest/problemOccurrences?locator=build:(id:626987)"/>
+
+  <artifacts href="/guestAuth/app/rest/builds/id:626987/artifacts/children"/>
+
+  <relatedIssues href="/guestAuth/app/rest/builds/id:626987/relatedIssues"/>
+
+  <properties count="3">
+
+    <property name="BranchName" value="Main"/>
+
+    <property name="DeploymentServer" value="swr11955"/>
+
+    <property name="env.ErrorLevel" value="0"/>
+
+  </properties>
+
+  <attributes count="1">
+
+    <entry name="teamcity.cleanSources" value="true"/>
+
+  </attributes>
+
+  <statistics href="/guestAuth/app/rest/builds/id:626987/statistics"/>
+
+  <snapshot-dependencies count="1">
+
+    <build id="626755" buildTypeId="Main_TriggerAll" number="1148" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626755" />
+
+  </snapshot-dependencies>
+
+  <artifact-dependencies count="33">
+
+    <build id="626522" buildTypeId="bt151" number="5.7.3.1825" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626522" />
+
+    <build id="626726" buildTypeId="bt180" number="1826" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626726" />
+
+    <build id="626526" buildTypeId="bt181" number="5.7.3.1401" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626526" />
+
+    <build id="626529" buildTypeId="Main_IfAssistanceWeb" number="5.7.3.67" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626529" />
+
+    <build id="626531" buildTypeId="bt193" number="5.7.3.1517" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626531" />
+
+    <build id="626533" buildTypeId="bt195" number="5.7.3.1261" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626533" />
+
+    <build id="626536" buildTypeId="bt285" number="5.7.3.1037" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626536" />
+
+    <build id="626541" buildTypeId="bt286" number="5.7.3.1051" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626541" />
+
+    <build id="624434" buildTypeId="bt291" number="724" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:624434" />
+
+    <build id="626545" buildTypeId="bt301" number="5.7.3.1037" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626545" />
+
+    <build id="626548" buildTypeId="bt321" number="5.7.3.911" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626548" />
+
+    <build id="626550" buildTypeId="bt329" number="5.7.3.979" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626550" />
+
+    <build id="626552" buildTypeId="Main_GeneralLedger" number="5.7.3.688" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626552" />
+
+    <build id="626554" buildTypeId="bt50" number="5.7.3.3379" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626554" />
+
+    <build id="626556" buildTypeId="bt52" number="5.7.3.1605" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626556" />
+
+    <build id="626501" buildTypeId="bt55" number="5.7.3.1685" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626501" />
+
+    <build id="626559" buildTypeId="bt56" number="5.7.3.2083" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626559" />
+
+    <build id="626715" buildTypeId="bt57" number="5.7.3.1781" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626715" />
+
+    <build id="626695" buildTypeId="bt58" number="5.7.3.2213" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626695" />
+
+    <build id="626563" buildTypeId="bt60" number="5.7.3.2554" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626563" />
+
+    <build id="626564" buildTypeId="bt62" number="5.7.3.2206" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626564" />
+
+    <build id="626572" buildTypeId="bt63" number="5.7.3.1502" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626572" />
+
+    <build id="626579" buildTypeId="bt64" number="5.7.3.1410" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626579" />
+
+    <build id="626580" buildTypeId="bt65" number="5.7.3.1886" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626580" />
+
+    <build id="626582" buildTypeId="bt66" number="5.7.3.1351" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626582" />
+
+    <build id="626583" buildTypeId="bt67" number="5.7.3.1488" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626583" />
+
+    <build id="626585" buildTypeId="bt68" number="5.7.3.1435" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626585" />
+
+    <build id="626740" buildTypeId="bt69" number="5.7.3.1957" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626740" />
+
+    <build id="626586" buildTypeId="bt71" number="5.7.3.3684" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626586" />
+
+    <build id="626730" buildTypeId="bt81" number="5.7.3.3077" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626730" />
+
+    <build id="626713" buildTypeId="bt82" number="5.7.3.2327" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626713" />
+
+    <build id="626588" buildTypeId="bt87" number="5.7.3.1521" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626588" />
+
+    <build id="626589" buildTypeId="Main_CalculationInspection" number="5.7.3.567" status="SUCCESS" state="finished" href="/guestAuth/app/rest/builds/id:626589" />
+
+  </artifact-dependencies>
+
+</build>
